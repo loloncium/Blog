@@ -362,6 +362,17 @@ body {
     color: var(--text-secondary);
 }
 
+/* ==================== Article Card Links ==================== */
+.article-card-link {
+    text-decoration: none;
+    color: inherit;
+    display: block;
+}
+
+.article-card-link .article-card {
+    height: 100%;
+}
+
 .load-more {
     text-align: center;
     padding: 2rem 0;
@@ -581,6 +592,202 @@ body {
     text-align: center;
     color: #8b949e;
     font-size: 0.9rem;
+}
+
+/* ==================== Article Page Styles ==================== */
+.article-page {
+    background: white;
+}
+
+.article-hero {
+    background: linear-gradient(135deg, rgba(0, 82, 204, 0.95) 0%, rgba(26, 137, 23, 0.95) 100%);
+    color: white;
+    padding: 4rem 0;
+    text-align: center;
+}
+
+.article-hero h1 {
+    font-size: 2.5rem;
+    margin: 1.5rem 0;
+    font-weight: 700;
+}
+
+.article-subtitle {
+    font-size: 1.1rem;
+    margin: 1rem 0 2rem;
+    opacity: 0.95;
+    max-width: 800px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.article-meta-detailed {
+    display: flex;
+    gap: 2rem;
+    justify-content: center;
+    font-size: 0.95rem;
+    opacity: 0.9;
+}
+
+.article-container {
+    padding: 3rem 0;
+}
+
+.article-layout {
+    display: grid;
+    grid-template-columns: 250px 1fr;
+    gap: 3rem;
+}
+
+.article-sidebar {
+    position: sticky;
+    top: 100px;
+    height: fit-content;
+}
+
+.toc {
+    background: var(--light-bg);
+    padding: 1.5rem;
+    border-radius: 12px;
+    border-left: 4px solid var(--primary-green);
+}
+
+.toc h3 {
+    font-size: 1.1rem;
+    margin-bottom: 1rem;
+    color: var(--text-primary);
+}
+
+.toc ul {
+    list-style: none;
+    font-size: 0.9rem;
+}
+
+.toc ul li {
+    margin-bottom: 0.7rem;
+}
+
+.toc a {
+    color: var(--primary-blue);
+    text-decoration: none;
+    transition: var(--transition);
+}
+
+.toc a:hover {
+    color: var(--primary-green);
+    text-decoration: underline;
+}
+
+.article-main {
+    line-height: 1.8;
+}
+
+.article-main h2 {
+    font-size: 2rem;
+    margin: 2.5rem 0 1rem;
+    color: var(--text-primary);
+    border-bottom: 2px solid var(--light-green);
+    padding-bottom: 0.5rem;
+}
+
+.article-main h3 {
+    font-size: 1.4rem;
+    margin: 2rem 0 1rem;
+    color: var(--text-primary);
+}
+
+.article-main p {
+    margin-bottom: 1.5rem;
+    color: var(--text-secondary);
+    font-size: 1rem;
+}
+
+.article-main ul, .article-main ol {
+    margin: 1.5rem 0 1.5rem 2rem;
+}
+
+.article-main li {
+    margin-bottom: 0.8rem;
+    color: var(--text-secondary);
+}
+
+.article-main table {
+    width: 100%;
+    border-collapse: collapse;
+    margin: 2rem 0;
+}
+
+.tools-table {
+    border: 1px solid var(--border-color);
+    border-radius: 8px;
+    overflow: hidden;
+}
+
+.tools-table th {
+    background: linear-gradient(135deg, var(--primary-blue), var(--primary-green));
+    color: white;
+    padding: 1rem;
+    text-align: left;
+    font-weight: 600;
+}
+
+.tools-table td {
+    padding: 1rem;
+    border-bottom: 1px solid var(--border-color);
+}
+
+.tools-table tr:last-child td {
+    border-bottom: none;
+}
+
+.tools-table tr:hover {
+    background: var(--light-bg);
+}
+
+.related-articles {
+    margin-top: 4rem;
+    padding-top: 2rem;
+    border-top: 2px solid var(--border-color);
+}
+
+.related-articles h2 {
+    font-size: 1.8rem;
+    margin-bottom: 2rem;
+}
+
+.related-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+    gap: 2rem;
+}
+
+.related-card {
+    background: var(--light-bg);
+    padding: 1.5rem;
+    border-radius: 8px;
+    text-decoration: none;
+    color: inherit;
+    transition: var(--transition);
+    border-left: 4px solid var(--primary-blue);
+}
+
+.related-card:hover {
+    border-left-color: var(--primary-green);
+    transform: translateX(5px);
+    background: white;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+}
+
+.related-card h4 {
+    font-size: 1.1rem;
+    margin-bottom: 0.5rem;
+    color: var(--text-primary);
+}
+
+.related-card p {
+    color: var(--text-secondary);
+    font-size: 0.9rem;
+    margin: 0;
 }
 
 /* ==================== Responsive Design ==================== */
