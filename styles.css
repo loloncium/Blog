@@ -68,8 +68,8 @@ body {
 
 .logo-icon {
     font-size: 1.8rem;
-    height: auto;
-    width:auto;
+    height: flex;
+
     
 }
 
