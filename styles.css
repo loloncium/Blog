@@ -34,7 +34,7 @@ body {
 
 /* ==================== Navigation ==================== */
 .navbar {
-    position: fixed;
+    position: absolute;
     top: 0;
     background: linear-gradient(135deg, #0052cc 0%, #1a8917 100%);
     color: white;
