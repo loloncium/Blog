@@ -67,6 +67,8 @@ body {
 
 .logo-icon {
     font-size: 1.8rem;
+    height: auto;
+    width: 24px;
 }
 
 .nav-links {
