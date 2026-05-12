@@ -63,12 +63,13 @@ body {
 .logo h1 {
     font-size: 1.3rem;
     white-space: nowrap;
+
 }
 
 .logo-icon {
     font-size: 1.8rem;
     height: auto;
-    width: 24px;
+    max-width: 100%;
 }
 
 .nav-links {
