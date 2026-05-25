@@ -837,6 +837,18 @@ body {
         grid-template-columns: 1fr;
     }
 
+    .article-layout {
+        grid-template-columns: 1fr;
+    }
+
+    .article-sidebar {
+        position: static;
+    }
+
+    .article-hero h1 {
+        font-size: 1.8rem;
+    }
+
     .newsletter-container {
         grid-template-columns: 1fr;
     }
